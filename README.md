@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master.svg?style=svg)](https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master)
+
 # piggy-sanitize-uri
 
 Basic lib to sanitize an uri
