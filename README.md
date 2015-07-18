@@ -15,7 +15,7 @@ let sanitizedUri = sanitizeUri(uri);
 With options:
 
 ```js
-import sanitizeUri from 'tilap-sanitize-uri'
+import sanitizeUri from 'piggy-sanitize-uri'
 
 let uri = '/my/path/?arg=value';
 let options = {
