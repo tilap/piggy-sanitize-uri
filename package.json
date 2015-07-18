@@ -1,16 +1,12 @@
 {
   "name": "piggy-sanitize-uri",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sanitize an uri",
   "repository": "tilap/piggy-sanitize-uri",
   "main": "lib/piggy-sanitize-uri.js",
-  "bin": {
-    "babel": "./node_modules/.bin/babel",
-    "jshint": "./node_modules/.bin/jshint"
-  },
   "scripts": {
-    "dev-compile": "babel src --out-dir lib",
-    "dev-check": "jshint lib",
+    "dev-compile": "./node_modules/.bin/babel src --out-dir lib",
+    "dev-check": "./node_modules/.bin/jshint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tilap",
