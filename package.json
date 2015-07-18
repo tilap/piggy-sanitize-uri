@@ -1,6 +1,6 @@
 {
   "name": "piggy-sanitize-uri",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sanitize an uri",
   "repository": "tilap/piggy-sanitize-uri",
   "main": "lib/piggy-sanitize-uri.js",
