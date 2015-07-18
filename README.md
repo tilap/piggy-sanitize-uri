@@ -1,11 +1,11 @@
-[![Circle CI](https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master.svg?style=svg)](https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master)
+piggy-sanitize-uri [![NPM version][npm-image]][npm-url] [![Build Status][build-status-image]][build-status-url]
+============================
 
-# piggy-sanitize-uri
+## Purpose
 
-Basic lib to sanitize an uri
+Basic lib to sanitize uri with options.
 
 ## Usage
-
 
 ```js
 import sanitizeUri from 'piggy-sanitize-uri'
@@ -42,3 +42,10 @@ All options are simple boolean values to enable/disable the feature
 Installing dev dependencies, you can edit the package source. Then run:
 - ```npm run dev-compile``` for babel transpilation
 - ```npm run dev-check``` for jshint check
+
+
+
+[npm-image]: https://img.shields.io/npm/v/piggy-sanitize-uri.svg?style=flat
+[npm-url]: https://npmjs.org/package/piggy-sanitize-uri
+[build-status-image]: https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master.svg?style=svg
+[build-status-url]: https://circleci.com/gh/tilap/piggy-sanitize-uri/tree/master
