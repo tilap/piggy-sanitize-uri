@@ -5,18 +5,17 @@ Basic lib to sanitize an uri
 ## Usage
 
 
-```
-import sanitizeUri from 'tilap-sanitize-uri'
+```js
+import sanitizeUri from 'piggy-sanitize-uri'
 
 let uri = '/my/path/?arg=value';
-var sanitizedUri = sanitizeUri(uri);
-
+let sanitizedUri = sanitizeUri(uri);
 ```
 
 With options:
 
-```
-import sanitizeUri from 'tilap-sanitize-uri'
+```js
+import sanitizeUri from 'piggy-sanitize-uri'
 
 let uri = '/my/path/?arg=value';
 let options = {
@@ -25,13 +24,12 @@ let options = {
   endingslash: true,
   doubleshash: true
 };
-var sanitizedUri = sanitizeUri(uri);
-
+let sanitizedUri = sanitizeUri(uri);
 ```
 
 ## Options
 
-All options are simple boolean value to enable/disable the feature
+All options are simple boolean values to enable/disable the feature
 - **simpleChars**: keep only alnum, "-" and "/" chars in the path
 - **lowercase**: lowercase all the chars
 - **endingslash**: force an ending slash
@@ -39,6 +37,6 @@ All options are simple boolean value to enable/disable the feature
 
 ## Developer
 
-Installing dev dependancies, you can edit the package source. Then run:
+Installing dev dependencies, you can edit the package source. Then run:
 - ```npm run dev-compile``` for babel transpilation
 - ```npm run dev-check``` for jshint check
